@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+  width: 80vw;
+  /* background: red; */
+  margin: auto;
+  min-height: 85vh;
+  padding: 5vh;
+  font-weight: bolder;
+  color: white;
+  justify-content: center;
+}
+.nav{
+    height: clamp(50px, 7vh, 8vh);
+    background-color: #2d2d2d;
+    color: white;
+    justify-content: center;
+    border-bottom: dotted 2px whitesmoke;
+}
+
+.language-html{
+    border-radius: 3vh !important;
+background-color: #1b1b1b !important;
+}
+.language-javascript{
+    border-radius: 3vh !important;
+background-color: #1b1b1b !important;
+}
+.main ol{
+  width: inherit;
+}
